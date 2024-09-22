@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Add User</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName">
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <br>
+            <label for="status">Status: </label>
+            <select name="tatus" id="status">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest" selected>Guest</option>
+            </select>
+            <br>
+            <p>Select your favorite programming language:</p>
+            <input type="radio" id="html">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css">
+            <label for="html">CSS</label><br>
+            <input type="radio" id="javascript">
+            <label for="html">Javascript</label><br>
+
+            <textarea name="comments" id="comments" cols="30" rows="4">Comments:</textarea><br>
+
+
+            <label for="date">Date:</label>
+            <input type="date" name="date"><br>
+
+            <input type="checkbox" name="newsletter">
+            <label for="newsletter">Sign up for our newsletter!</label><br>
+            <input type="checkbox" name="toc">
+            <label for="toc">Agree to the Terms and Conditions</label><br>
+
+            <button>Submit</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
